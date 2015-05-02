@@ -1,0 +1,26 @@
+{
+  "name": "frequently",
+  "version": "0.1.0",
+  "description": "Execute a function every so often or on demand, while avoiding race conditions. Great for implementing \"save in background\" and other polling operations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/punkave/frequently"
+  },
+  "keywords": [
+    "polling",
+    "functional",
+    "programming",
+    "concurrency",
+    "async"
+  ],
+  "author": "P'unk Avenue LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/punkave/frequently/issues"
+  },
+  "homepage": "https://github.com/punkave/frequently"
+}
