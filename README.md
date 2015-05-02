@@ -55,7 +55,7 @@ already be in progress. If a function is passed to
 are passed on to that function.
 
 If several calls to `now()` are made before the
-first results in an invocation of `task`, only the last invocation actually takes place.
+first results in an invocation of `task`, only the last invocation actually takes place. This prevents "slamming" of the server.
 
 There is also a `stop` method which prevents any further
 calls from being scheduled at intervals.
