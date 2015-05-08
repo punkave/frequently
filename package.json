@@ -1,6 +1,6 @@
 {
   "name": "frequently",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Execute a function every so often or on demand, while avoiding race conditions. Great for implementing \"save in background\" and other polling operations.",
   "main": "index.js",
   "scripts": {

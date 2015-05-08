@@ -40,18 +40,21 @@ function frequently(task, interval) {
 
   return {
     now: function(fn) {
-      stopped = false;
       if (timeout) {
         clearTimeout(timeout);
+        timeout = setTimeout(go, 0);
+      } else if (stopped) {
         timeout = setTimeout(go, 0);
       } else {
         runAgain = true;
       }
+      stopped = false;
       goCallback = fn;
     },
     stop: function() {
       if (timeout) {
         clearTimeout(timeout);
+        timeout = null;
       }
       stopped = true;
     }

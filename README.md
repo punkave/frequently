@@ -81,6 +81,10 @@ Feel free to open issues on [github](http://github.com/punkave/frequently).
 
 ## Changelog
 
+### CHANGES IN 0.1.1
+
+`now()` works reliably after `stop()` in all cases.
+
 ### CHANGES IN 0.1.0
 
 Initial release. With shiny unit tests, of course.
